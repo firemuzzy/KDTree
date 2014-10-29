@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F4DA21F1807084800ED114B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F4DA21E1807084800ED114B /* Foundation.framework */; };
+		3F4DA22D1807084800ED114B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F4DA22C1807084800ED114B /* XCTest.framework */; };
+		3F4DA22E1807084800ED114B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F4DA21E1807084800ED114B /* Foundation.framework */; };
+		3F4DA2301807084800ED114B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F4DA22F1807084800ED114B /* UIKit.framework */; };
+		3F4DA2331807084800ED114B /* libKDTree.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F4DA21B1807084800ED114B /* libKDTree.a */; };
+		3F4DA2391807084800ED114B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3F4DA2371807084800ED114B /* InfoPlist.strings */; };
+		3F4DA255180708C300ED114B /* KDTreeO2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4DA24F180708C300ED114B /* KDTreeO2.m */; };
+		3F4DA256180708C300ED114B /* kdtree.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F4DA251180708C300ED114B /* kdtree.c */; };
+		3F4DA257180708C300ED114B /* distance.c in Sources */ = {isa = PBXBuildFile; fileRef = 3F4DA253180708C300ED114B /* distance.c */; };
+		3F4DA259180708CB00ED114B /* KDTreeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F4DA258180708CB00ED114B /* KDTreeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F4DA2311807084800ED114B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F4DA2131807084800ED114B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F4DA21A1807084800ED114B;
+			remoteInfo = KDTree;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3F4DA2191807084800ED114B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3F4DA21B1807084800ED114B /* libKDTree.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKDTree.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F4DA21E1807084800ED114B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3F4DA2221807084800ED114B /* KDTree-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KDTree-Prefix.pch"; sourceTree = "<group>"; };
+		3F4DA22B1807084800ED114B /* KDTreeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KDTreeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F4DA22C1807084800ED114B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3F4DA22F1807084800ED114B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3F4DA2361807084800ED114B /* KDTreeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KDTreeTests-Info.plist"; sourceTree = "<group>"; };
+		3F4DA2381807084800ED114B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3F4DA24F180708C300ED114B /* KDTreeO2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDTreeO2.m; sourceTree = "<group>"; };
+		3F4DA250180708C300ED114B /* KDTreeO2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KDTreeO2.h; sourceTree = "<group>"; };
+		3F4DA251180708C300ED114B /* kdtree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kdtree.c; sourceTree = "<group>"; };
+		3F4DA252180708C300ED114B /* kdtree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kdtree.h; sourceTree = "<group>"; };
+		3F4DA253180708C300ED114B /* distance.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = distance.c; sourceTree = "<group>"; };
+		3F4DA254180708C300ED114B /* distance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = distance.h; sourceTree = "<group>"; };
+		3F4DA258180708CB00ED114B /* KDTreeTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KDTreeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F4DA2181807084800ED114B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4DA21F1807084800ED114B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4DA2281807084800ED114B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4DA2331807084800ED114B /* libKDTree.a in Frameworks */,
+				3F4DA22D1807084800ED114B /* XCTest.framework in Frameworks */,
+				3F4DA2301807084800ED114B /* UIKit.framework in Frameworks */,
+				3F4DA22E1807084800ED114B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F4DA2121807084800ED114B = {
+			isa = PBXGroup;
+			children = (
+				3F4DA2201807084800ED114B /* KDTree */,
+				3F4DA2341807084800ED114B /* KDTreeTests */,
+				3F4DA21D1807084800ED114B /* Frameworks */,
+				3F4DA21C1807084800ED114B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F4DA21C1807084800ED114B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F4DA21B1807084800ED114B /* libKDTree.a */,
+				3F4DA22B1807084800ED114B /* KDTreeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F4DA21D1807084800ED114B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F4DA21E1807084800ED114B /* Foundation.framework */,
+				3F4DA22C1807084800ED114B /* XCTest.framework */,
+				3F4DA22F1807084800ED114B /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3F4DA2201807084800ED114B /* KDTree */ = {
+			isa = PBXGroup;
+			children = (
+				3F4DA24F180708C300ED114B /* KDTreeO2.m */,
+				3F4DA250180708C300ED114B /* KDTreeO2.h */,
+				3F4DA251180708C300ED114B /* kdtree.c */,
+				3F4DA252180708C300ED114B /* kdtree.h */,
+				3F4DA253180708C300ED114B /* distance.c */,
+				3F4DA254180708C300ED114B /* distance.h */,
+				3F4DA2211807084800ED114B /* Supporting Files */,
+			);
+			path = KDTree;
+			sourceTree = "<group>";
+		};
+		3F4DA2211807084800ED114B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F4DA2221807084800ED114B /* KDTree-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F4DA2341807084800ED114B /* KDTreeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F4DA258180708CB00ED114B /* KDTreeTests.m */,
+				3F4DA2351807084800ED114B /* Supporting Files */,
+			);
+			path = KDTreeTests;
+			sourceTree = "<group>";
+		};
+		3F4DA2351807084800ED114B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F4DA2361807084800ED114B /* KDTreeTests-Info.plist */,
+				3F4DA2371807084800ED114B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F4DA21A1807084800ED114B /* KDTree */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F4DA23E1807084800ED114B /* Build configuration list for PBXNativeTarget "KDTree" */;
+			buildPhases = (
+				3F4DA2171807084800ED114B /* Sources */,
+				3F4DA2181807084800ED114B /* Frameworks */,
+				3F4DA2191807084800ED114B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KDTree;
+			productName = KDTree;
+			productReference = 3F4DA21B1807084800ED114B /* libKDTree.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3F4DA22A1807084800ED114B /* KDTreeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F4DA2411807084800ED114B /* Build configuration list for PBXNativeTarget "KDTreeTests" */;
+			buildPhases = (
+				3F4DA2271807084800ED114B /* Sources */,
+				3F4DA2281807084800ED114B /* Frameworks */,
+				3F4DA2291807084800ED114B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F4DA2321807084800ED114B /* PBXTargetDependency */,
+			);
+			name = KDTreeTests;
+			productName = KDTreeTests;
+			productReference = 3F4DA22B1807084800ED114B /* KDTreeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F4DA2131807084800ED114B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = HeatNear;
+			};
+			buildConfigurationList = 3F4DA2161807084800ED114B /* Build configuration list for PBXProject "KDTree" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3F4DA2121807084800ED114B;
+			productRefGroup = 3F4DA21C1807084800ED114B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F4DA21A1807084800ED114B /* KDTree */,
+				3F4DA22A1807084800ED114B /* KDTreeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F4DA2291807084800ED114B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4DA2391807084800ED114B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F4DA2171807084800ED114B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4DA257180708C300ED114B /* distance.c in Sources */,
+				3F4DA256180708C300ED114B /* kdtree.c in Sources */,
+				3F4DA255180708C300ED114B /* KDTreeO2.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F4DA2271807084800ED114B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F4DA259180708CB00ED114B /* KDTreeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F4DA2321807084800ED114B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F4DA21A1807084800ED114B /* KDTree */;
+			targetProxy = 3F4DA2311807084800ED114B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F4DA2371807084800ED114B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F4DA2381807084800ED114B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F4DA23C1807084800ED114B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F4DA23D1807084800ED114B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F4DA23F1807084800ED114B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				DSTROOT = /tmp/KDTree.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KDTree/KDTree-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3F4DA2401807084800ED114B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				DSTROOT = /tmp/KDTree.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KDTree/KDTree-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = /usr/local/include;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3F4DA2421807084800ED114B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KDTree/KDTree-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KDTreeTests/KDTreeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3F4DA2431807084800ED114B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KDTree/KDTree-Prefix.pch";
+				INFOPLIST_FILE = "KDTreeTests/KDTreeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F4DA2161807084800ED114B /* Build configuration list for PBXProject "KDTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4DA23C1807084800ED114B /* Debug */,
+				3F4DA23D1807084800ED114B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F4DA23E1807084800ED114B /* Build configuration list for PBXNativeTarget "KDTree" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4DA23F1807084800ED114B /* Debug */,
+				3F4DA2401807084800ED114B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F4DA2411807084800ED114B /* Build configuration list for PBXNativeTarget "KDTreeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F4DA2421807084800ED114B /* Debug */,
+				3F4DA2431807084800ED114B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F4DA2131807084800ED114B /* Project object */;
+}
